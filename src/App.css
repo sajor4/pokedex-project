@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+  background-color: #ef5350;
+}
+
+header img {
+  width: 200px;
+  height: auto;
+}
+
+main {
+  padding: 20px;
+}
+
+.pokemon-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.pokemon-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  text-align: center;
+}
+
+.pokemon-card img {
+  max-width: 100px;
+  height: auto;
+}
